@@ -1,0 +1,12 @@
+---
+# populate with store_id from original request
+store_id: "2616"
+
+headers:
+  # populate with Authorization header from request
+  # (note: 1000+ character value)
+  authorization: "Bearer ...VERY_LONG_STRING"
+
+  # populate with ocp-apim-subscription-key request
+  # (32-digit hex-encoded value)
+  ocp-apim-subscription-key: "32 digit hex-encoded hash"
